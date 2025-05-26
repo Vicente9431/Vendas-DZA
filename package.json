@@ -1,0 +1,20 @@
+// Configuração para implantação permanente do backend Node.js
+{
+  "name": "gestion-app-backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de gestão empresarial",
+  "main": "server-prod.js",
+  "scripts": {
+    "start": "node server-prod.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0"
+  }
+}

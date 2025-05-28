@@ -1,4 +1,3 @@
-// Configuração para implantação permanente do backend Node.js
 {
   "name": "gestion-app-backend",
   "version": "1.0.0",
